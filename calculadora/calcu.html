@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css"  href="calcu.css">
+    <script  src="calcu.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <header>
+        <H1>CALCULADORA</H1>
+    </header>
+
+        <form name="calcu">
+
+        
+
+         <input class="texto" type="text" value=" " name= "imprimeResultado" id="imprimeResultado"/> <br><br>  
+
+          <input  class="texto" type="text" name= "respuesta" id= "respuesta"/> <br> <br> 
+           
+          <input type="button" name="borrar" value="C" onclick="reset();" /><br> <br>
+ 
+
+          <input type="button" name="7" value="7" onclick="boton(value);" />
+          <input type="button" name="8" value="8" onclick="boton(value);" />
+          <input type="button" name="9" value="9" onclick="boton(value);" /> 
+          <input type="button" name="suma" value="+" onclick="boton(value);" /><br> <br> 
+
+          <input type="button" name="4" value="4" onclick="boton(value);" /> 
+          <input type="button" name="5" value="5" onclick="boton(value);" />
+          <input type="button" name="6" value="6" onclick="boton(value);" />
+          <input type="button" name="resta" value="-" onclick="boton(value);" /> <br> <br>
+
+          <input type="button" name="1" value="1" onclick="boton(value);" />
+          <input type="button" name="2" value="2" onclick="boton(value);" />
+          <input type="button" name="3" value="3" onclick="boton(value);" /> 
+          <input type="button" name="mul" value="*" onclick="boton(value);" /><br> <br>
+
+          <input type="button" name="0" value="0" onclick="boton(value);" />
+          <input type="button" name="punto" value="." onclick="boton(value);" />
+          <input type="button" name="igual" value="=" onclick="calcular();" />
+          <input type="button" name="div" value="/" onclick="boton(value);" />
+          
+          
+          </form>
+
+</body>
+</html>

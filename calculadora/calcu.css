@@ -1,0 +1,31 @@
+
+form{
+    height: 568px;
+    border: solid;
+    border-color: black;
+    background-color: rgb(201, 201, 201);
+    padding: 10px 10px 10px 50px;
+    margin-left: 30%;
+    width: 300px;
+}
+
+.texto{
+    width: 104%;
+    height: 60px;
+    margin-left: -24px;
+    /* margin-right: 100px; */
+    background: #eeece9;
+    color: black;
+    font-size: 30px;
+}
+input {
+    width: 60px;
+    font-size: 35px;
+    height: 60px;
+    color: #fff;
+    background: #d46e05;
+    border: 63px;
+    border-color: white;
+    
+}
+
