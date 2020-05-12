@@ -1,0 +1,59 @@
+
+.bien {
+    color: rgb(13, 174, 238);
+    font-size: 15px;
+    }
+
+    form {
+        display:block;
+        width:800px;
+        height: 700px;
+        font-family:'Times New Roman', Times, serif;
+        background-color: rgb(242, 243, 243);
+        margin-left: 20%;
+        padding: 20px 30px 20px 30px;
+    }
+    
+    label {
+        display:block;
+        padding: 5px 5px 5px 5px ;
+        letter-spacing:1px;
+        color: rgb(0, 0, 0);
+    }
+     
+     
+    input {
+        width:380px;
+        height:27px;
+        background:#d8d7d7;
+        border:1px solid #727171;
+        margin-top: 10px;
+        font-size:15px;
+    }
+     
+ .botonEnviar{
+            width: 200PX;
+            height: 30PX;
+            float: left;
+            border-radius: 10px;
+            border-style: solid;
+            border-color:   rgb(255, 255, 255);
+            background-color:#c9c5c5ec;
+            margin-left: 10px;
+    
+}
+        
+
+#dia, #mes {
+ width: 30px;
+ 
+}
+#anio {
+ width: 50px;
+ 
+}
+
+#fecha {
+    width: 255px;
+    
+}
