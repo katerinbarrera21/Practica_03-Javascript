@@ -382,18 +382,21 @@ variables= '' ;
 }
 
 RESULTADO(S) OBTENIDO(S):
+
 Formulario:
-![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/readme/4.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/readme/4.JPG)
+
 
 Imágenes:
-![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/1.JPG)
-![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/2.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/Imagenes/readme/1.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/Imagenes/readme/2.JPG)
 
 Calculadora:
-![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/3.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/Imagenes/readme/3.JPG)
 
 
 CONCLUSIONES:
+
 Se logro entender y organizar de forma adecuada los sitios de web en Internet
 Se logro realizar animaciones con las imágenes en sitios web, sin embargo se tuvo algunos problemas con esta parte.
 RECOMENDACIONES:
