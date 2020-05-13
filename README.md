@@ -2,9 +2,13 @@
 
 PRÁCTICA DE LABORATORIO
 
-CARRERA: Computación ASIGNATURA: Hipermedial
+CARRERA: Computación 
 
-NRO. PRÁCTICA: 3 TÍTULO PRÁCTICA: Resolución de problemas sobre JavaScript
+ASIGNATURA: Hipermedial
+
+NRO. PRÁCTICA: 3 
+
+TÍTULO PRÁCTICA: Resolución de problemas sobre JavaScript
 
 OBJETIVO ALCANZADO:
 
@@ -379,8 +383,14 @@ variables= '' ;
 
 RESULTADO(S) OBTENIDO(S):
 Formulario:
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/readme/4.JPG)
+
 Imágenes:
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/1.JPG)
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/2.JPG)
+
 Calculadora:
+![](https://github.com/katerinbarrera21/Practica02-Mi-Sitio-Web-CSS-/blob/master/Imagenes/readme/3.JPG)
 
 
 CONCLUSIONES:
