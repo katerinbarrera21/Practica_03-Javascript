@@ -388,11 +388,11 @@ Formulario:
 
 
 Imágenes:
-![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/Imagenes/readme/1.JPG)
-![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/Imagenes/readme/2.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/readme/1.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/readme/2.JPG)
 
 Calculadora:
-![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/Imagenes/readme/3.JPG)
+![](https://github.com/katerinbarrera21/Practica_03-Javascript/blob/master/readme/3.JPG)
 
 
 CONCLUSIONES:
