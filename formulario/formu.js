@@ -5,7 +5,7 @@ function validarCamposObligatorios()
     {
         var elemento = document.forms[0].elements[i];
 
-        if(elemento.value == '' && ( elemento.type == 'text' || elemento.type == 'email'  || elemento.type == 'password'))
+        if(elemento.value == '' && ( elemento.type == 'text'))
         {
             if(elemento.id == 'cedula')
             {
@@ -37,15 +37,8 @@ function validarCamposObligatorios()
                  document.getElementById('mensajeFecha').innerHTML = '<br> La fecha esta vacia'; 
             }
 
-            if(elemento.id == 'correo')
-            {
-                 document.getElementById('mensajeCorreo').innerHTML = '<br> El correo esta vacio'; 
-            }
-
-            if(elemento.id == 'contrasenia')
-            {
-                 document.getElementById('mensajeContrasenia').innerHTML = '<br> La contrasenia esta vacia'; 
-            }
+         
+           
 
             error= comentarioError(elemento);
             bandera = false;
@@ -91,7 +84,10 @@ function validarNumCedula(numero){
         if( digito_region >= 1 && digito_region <=24 )
         {
           var ultimo_digito   = cedula.substring(9,10);
-          var pares = parseInt(cedula.substring(1,2)) + parseInt(cedula.substring(3,4)) + parseInt(cedula.substring(5,6)) + parseInt(cedula.substring(7,8));
+          var pares = parseInt(cedula.substring(1,2)) + 
+                       parseInt(cedula.substring(3,4)) + 
+                       parseInt(cedula.substring(5,6)) +
+                        parseInt(cedula.substring(7,8));
 
           var numero1 = cedula.substring(0,1);
           var numero1 = (numero1 * 2);

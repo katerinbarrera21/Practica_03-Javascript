@@ -100,45 +100,45 @@ function siguienteF (e)
                 contV++;
                 setInterval(moverIzquierda,100);
                 setTimeout('',2000);
-                resolucionPantalla2=0;
-                posicion1=0;
+                tamanioI2=0;
+                cambioI1=0;
                // document.getElementById('imagen').style.margin.left.disabled= true;
             }else if (contV===1){
                 setInterval(moverIzquierda,100);
                 setTimeout('',2000);
                     contV++;
                     mostrar = mostrarImagen(valorArray[1]);
-                    resolucionPantalla2=0;
-                    posicion1=0;
+                    tamanioI2=0;
+                cambioI1=0;
                     //document.getElementById('imagen').style.left.disabled = true;
             }else if (contV===2){
                 setInterval(moverIzquierda,100);
                 setTimeout('',2000);
             mostrar = mostrarImagen(valorArray[2]);
             contV++
-                resolucionPantalla2=0;
-                posicion1=0;
+            tamanioI2=0;
+            cambioI1=0;
                // document.getElementById('imagen').style.left.disabled = true;
             }else if (contV===3){
                 setInterval(moverIzquierda,100);
                 setTimeout('',2000);
             mmostrar = mostrarImagen(valorArray[3]);
             contV++
-            resolucionPantalla2=0;
-                posicion1=0;
+            tamanioI2=0;
+                cambioI1=0;
                // document.getElementById('imagen').style.left.disabled = true;
             }else if(contV===4){
                 setInterval(moverIzquierda,100);
                 setTimeout('',2000);
                 mostrar = mostrarImagen(valorArray[4]);
-            contV++
-            resolucionPantalla2=0;
-                posicion1=0;
+                contV++
+                tamanioI2=0;
+                cambioI1=0;
                // document.getElementById('imagen').style.margin.left.disabled = true;
             } if  (contV>4){
             contV=0;
-            resolucionPantalla2=0;
-                posicion1=0;
+                tamanioI2=0;
+                cambioI1=0;;
                // document.getElementById('imagen').style.margin.left.disabled = true;
              }
 
@@ -159,46 +159,47 @@ function siguienteF (e)
         console.log("dentro del metodo ANTERIOR F")
             num--;
             
-            if (num >=0  ) {
+            if (num >=0 && num <5) {
                 ver++;
                 console.log('estoy en el primer if anterior')
             if (contV===0){
                 setInterval(moverDerecha,100);
                 setTimeout('',2000);
-                resolucionPantalla2=0;
-                posicion1=0;
+                
+                tamanio2D=0;
+                cambio1D=0;
                // document.getElementById('imagen').style.left.disabled = true;
                 console.log(valorArray[4]);
                 contV++;
             }else if (contV===1){
                 setInterval(moverDerecha,100);
                 setTimeout('',2000);
-                resolucionPantalla2D=0;
-                posicion1D=0;
+                tamanio2D=0;
+                cambio1D=0;
                // document.getElementById('imagen').style.left.disabled = true;
                 mostrar = mostrarImagen(valorArray[3]);
                 contV++;
             }else if (contV===2){
                 setInterval(moverDerecha,100);
                 setTimeout('',2000);
-                resolucionPantalla2D=0;
-                posicion1D=0;
+                tamanio2D=0;
+                cambio1D=0;
                // document.getElementById('imagen').style.left.disabled = true;
                 mostrar = mostrarImagen(valorArray[2]);
                  contV++
             }else if (contV===3){
                 setInterval(moverDerecha,100);
                 setTimeout('',2000);
-                resolucionPantalla2D=0;
-                posicion1D=0;
+                tamanio2D=0;
+                cambio1D=0;
                 //document.getElementById('imagen').style.left.disabled = true;
                 mostrar = mostrarImagen(valorArray[1]);
                 contV++
             }else if(contV===4){
                 setInterval(moverDerecha,100);
                 setTimeout('',2000);
-                resolucionPantalla2D=0;
-                posicion1D=0;
+                tamanio2D=0;
+                cambio1D=0;
                 //document.getElementById('imagen').style.left.disabled = true;
                 mostrar = mostrarImagen(valorArray[0]);
                 contV++
@@ -233,16 +234,16 @@ function stopTimer () {
     document.getElementById("imagen").style.left.disabled = true;
 }
 
-var resolucionPantalla= -1500;
-var resolucionPantalla2= 0;
-var posicion1=0;
+var tamanioI= -1500;
+var tamanioI2= 0;
+var cambioI1=0;
 
 function moverIzquierda(){
     
-    if (resolucionPantalla2 > resolucionPantalla) {
-        resolucionPantalla2 -=20; //desplazar fondo1 -10px
-        posicion1=resolucionPantalla2+"px"; //preparar para código CSS fondo1= en el eje x e y asignando un valor en px
-        document.getElementById("imagen").style.left= posicion1;
+    if (tamanioI2 > tamanioI) {
+        tamanioI2 -=20; 
+        cambioI1=tamanioI2+"px"; 
+        document.getElementById("imagen").style.left= cambioI1;
     }
      seMovio=1;
 }
@@ -257,19 +258,16 @@ function clearTemp2(){
     clearInterval(temp2);   
 }
 
-
-
-
-var resolucionPantallaD= 1400;
-var resolucionPantalla2D= 0;
-var posicion1D=0;
+var tamanioD= 1400;
+var tamanio2D= 0;
+var cambio1D=0;
 
 function moverDerecha(){
     
-    if (resolucionPantalla2D < resolucionPantallaD) {
-        resolucionPantalla2D +=20; //desplazar fondo1 -10px
-        posicion1D=resolucionPantalla2D+"px"; //preparar para código CSS fondo1= en el eje x e y asignando un valor en px
-        document.getElementById("imagen").style.left= posicion1D;
+    if (tamanio2D < tamanioD) {
+        tamanio2D +=20; //desplazar fondo1 -10px
+        cambio1D=tamanio2D+"px"; //preparar para código CSS fondo1= en el eje x e y asignando un valor en px
+        document.getElementById("imagen").style.left= cambio1D;
 
     }
      seMovio=1;

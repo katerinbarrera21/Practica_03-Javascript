@@ -1,0 +1,1 @@
+<?php echo '<p>BIENVENIDO PASASTE LAS VALIDADES </p>'; ?>
