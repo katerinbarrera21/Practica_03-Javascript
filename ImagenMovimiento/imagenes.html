@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css"  href="imagenes.css">
+    <script src="imagens.js"></script>
+    <title>GALAERÍA</title>
+    <style type="text/css">
+        .imagen {
+        margin-left: 0px;
+        ;
+        }
+    </style>
+
+</head>
+<body >
+     
+    <section id="contenedor">
+        <h1>GALAERIA</h1>
+        
+            <form name="galeria">
+                <div id="caja">
+                    <img id="imagen" class="imagen" src="images/1.png" width="1350" height="500" id="imagen"  >
+                </div>
+                
+                <div id="botones" >
+                    <input class="accion"  id="anterior" type="button" value="Atras" onclick=" return anteriorF(this)"
+                     />
+
+                    <span id="a"></span>
+                    <input class="iniciar" id= "inicio"  type="button" name="iniciar" value="INICIAR" onclick="inicioF(this)"  />
+                    <input class="accion"  id = "siguiente" type="button" value="Siguiente" onclick=" return  siguienteF (this)" />
+                    <span id="s"></span>
+                </div>
+           </form>
+    </section>
+
+
+</body>
+</html>
